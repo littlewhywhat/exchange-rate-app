@@ -56,7 +56,7 @@ const Header = () => <HeaderListRow values={['Code', 'Rate', 'Amount']} />;
 
 const HeaderListRow = styled(ListRow).attrs(({theme}) => ({
   textStyle: {
-    fontWeight: theme.text.weight.bold,
+    fontWeight: theme.text.weight.bold as any,
   },
 }))``;
 
