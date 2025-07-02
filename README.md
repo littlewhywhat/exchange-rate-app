@@ -1,8 +1,37 @@
+# ExchangeRateApp
+
+> **🚨 IMPORTANT: Dependency Updates Available**
+> 
+> This project has been updated with the latest React Native and dependency versions. **Please read the migration guide before proceeding.**
+> 
+> **Quick Start Migration:**
+> ```bash
+> # Automated migration (recommended)
+> ./scripts/migrate-dependencies.sh
+> 
+> # Manual migration
+> # See DEPENDENCY_MIGRATION_GUIDE.md for detailed steps
+> ```
+> 
+> **Key Changes:**
+> - React Native: 0.73.0 → 0.76.12
+> - Android SDK: 34 → 35 (Android 15)
+> - React Query → TanStack Query v5
+> - Node.js requirement: 20+
+> 
+> **📚 Documentation:**
+> - [Migration Guide](./DEPENDENCY_MIGRATION_GUIDE.md) - Step-by-step migration instructions
+> - [Update Summary](./DEPENDENCY_UPDATE_SUMMARY.md) - Complete list of changes
+
+---
+
+## Overview
+
 # Interview task
 
 ### Description
 
-Create a simple React Native app (don’t use Expo please), which:
+Create a simple React Native app (don't use Expo please), which:
 
 1. When it starts, retrieve the latest currency exchange rates from the Czech National Bank.
 
